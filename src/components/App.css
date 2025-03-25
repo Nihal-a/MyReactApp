@@ -1,0 +1,67 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 8px;
+}
+.nav .logo {
+  width: 70px;
+  margin-left: 12px;
+}
+.nav > ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav > ul > li {
+  padding: 10px;
+ 
+}
+
+
+.card {
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.card img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-inline: auto;
+  border-radius: 8px;
+}
+.card h3{
+  margin: 0;
+  margin-top: 10px;
+}
+.card h4{
+  margin: 0;
+  margin-top: 10px;
+}
+.card p{
+  margin: 0;
+  margin-top: 10px;
+}
+.shoplist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  margin-inline: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
